@@ -1,64 +1,52 @@
-💬 LiteChat – Real-Time Chat App
-LiteChat is a lightweight, real-time messaging application built using HTML, CSS, JavaScript, and Socket.io. It allows users to join and chat instantly by simply entering a username, without the need for a complex login process.
+# 💬 LiteChat – Real-Time Chat App
 
-🔗 Live Demo: View LiteChat
+<p align="center">
+  <b>A sleek, event-driven messaging platform for instant communication.</b><br>
+  <i>Built with the MERN-lite stack (Node, Express, Socket.io)</i>
+</p>
 
-🚀 Features
-Real-time Messaging: Instant communication powered by Socket.io.
+<p align="center">
+  <a href="https://rishugourav017.github.io/litechat/">🚀 Live Demo</a> •
+  <a href="https://github.com/rishugourav017/litechat/issues">🛠️ Report Bug</a> •
+  <a href="https://github.com/rishugourav017/litechat">⭐ Star Project</a>
+</p>
 
-Username Persistence: Remembers your username using localStorage.
+---
 
-Responsive UI: Clean and modern design that works on both desktop and mobile.
+## 📌 Overview
+**LiteChat** is a high-performance, real-time chat application designed for simplicity. It eliminates the friction of traditional sign-ups, allowing users to connect instantly via WebSockets. Perfect for quick, private, or group interactions.
 
-Frictionless Access: No registration or login required to start chatting.
+---
 
-Static Frontend Hosting: Optimized for GitHub Pages.
+## 🌟 Key Features
 
-🛠️ Tech Stack
-Frontend: HTML5, CSS3, JavaScript (ES6+)
+| Feature | Description |
+| :--- | :--- |
+| ⚡ **Real-Time Sync** | Bi-directional messaging powered by **Socket.io**. |
+| 👤 **Instant Entry** | Join instantly with a nickname (no signup required). |
+| 💾 **Persistence** | Session-based username storage via **localStorage**. |
+| 📱 **Responsive** | Fully optimized for Mobile, Tablet, and Desktop views. |
+| ☁️ **Lightweight** | Minimalist backend for low-latency message delivery. |
 
-Backend: Node.js, Express.js
+---
 
-Engine: Socket.io (WebSockets)
+## 🛠️ Tech Stack
 
-Hosting: * Frontend: GitHub Pages
+* **Frontend:** `HTML5` • `CSS3` • `JavaScript (ES6+)`
+* **Backend:** `Node.js` • `Express.js`
+* **Real-time:** `Socket.io (WebSockets)`
+* **Version Control:** `Git` • `GitHub`
 
-Backend: Localhost / Ngrok (Deployable to Render/Railway)
+---
 
-📂 Project Structure
-Plaintext
+## 📂 Project Structure
 
+```text
 litechat/
-├── public/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── server.js
-├── package.json
-└── README.md
-⚙️ How to Run Locally
-1️⃣ Clone the Repository
-Bash
-
-git clone https://github.com/rishugourav017/litechat.git
-cd litechat
-2️⃣ Install Dependencies
-Bash
-
-npm install
-3️⃣ Start the Server
-Bash
-
-node server.js
-4️⃣ Open in Browser
-Visit: http://localhost:3000
-
-[!IMPORTANT]
-
-Note on Hosting: GitHub Pages only hosts static files (HTML/CSS/JS). Since server.js requires a Node.js environment, the backend must be hosted separately on platforms like Render, Railway, or Heroku for the live chat functionality to work globally.
-
-👤 Author
-Rishu Gourav Bachelor of Engineering – Computer Science & Engineering 🔗 GitHub Profile
-
-⭐ Support
-If you find this project useful, please consider giving it a Star!
+├── 📁 public/           # Client-side assets
+│   ├── 📄 index.html    # Application Entry Point
+│   ├── 📄 style.css     # UI & Layout Styling
+│   └── 📄 script.js     # Client-side Socket Logic
+├── 📄 server.js         # Node.js Server & Socket Config
+├── 📄 package.json      # Dependencies & Scripts
+└── 📄 README.md         # Project Documentation
