@@ -14,7 +14,9 @@
 ---
 
 ## 📌 Overview
-**LiteChat** is a high-performance, real-time chat application designed for simplicity. It eliminates the friction of traditional sign-ups, allowing users to connect instantly via WebSockets. Perfect for quick, private, or group interactions.
+**LiteChat** is a high-performance, real-time chat application designed for simplicity.
+It eliminates the friction of traditional sign-ups, allowing users to connect instantly via WebSockets. 
+Perfect for quick, private, or group interactions.
 
 ---
 
