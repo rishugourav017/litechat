@@ -2,7 +2,8 @@
 
 LiteChat is a **free, lightweight real-time chat app** built using **HTML, CSS, and JavaScript**.
 
-🔗 Live Demo:  
+🔗 Live Demo:  https://litechat-1sw4.onrender.com/
+
 https://rishugourav017.github.io/litechat/
 
 ---
